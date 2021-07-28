@@ -25,8 +25,8 @@ class App extends Component {
               <NavLink id="uranus" activeStyle={{opacity: 1, borderTop: '5px solid #1EC1A2'}} className="nav-link" to="/planets/Uranus">Uranus</NavLink>
               <NavLink id="neptune" activeStyle={{opacity: 1, borderTop: '5px solid #2D68F0'}} className="nav-link" to="/planets/Neptune">Neptune</NavLink>
             </div>
-            <Link to='/menu'>
-              <IoMenu className="hamburger-menu"/>
+            <Link className="hamburger-menu" to='/menu'>
+              <IoMenu/>
             </Link>
           </nav>
           
